@@ -1,10 +1,13 @@
 package com.satyrn.mdoadq.forge.data.provider.server;
 
+import com.satyrn.mdoadq.data.tags.ConventionalItemTags;
 import com.satyrn.mdoadq.data.tags.ModItemTags;
 import com.satyrn.mdoadq.world.item.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
@@ -62,5 +65,32 @@ public final class ModItemTagsProvider extends ItemTagsProvider {
                         ModItems.MUSIC_DISC_LOCKER.get());
         this.tag(ModItemTags.FAILROAD_DISCS)
                 .add(ModItems.MUSIC_DISC_SPARKPLUGS.get(), ModItems.MUSIC_DISC_NIGHTTIME_TRANSIT.get());
+        this.tag(ModItemTags.TRADE_ITEM_DISCS)
+                .add(Items.MUSIC_DISC_11, Items.MUSIC_DISC_13, Items.MUSIC_DISC_CAT,
+                        Items.MUSIC_DISC_BLOCKS, Items.MUSIC_DISC_CHIRP, Items.MUSIC_DISC_FAR, Items.MUSIC_DISC_MALL,
+                        Items.MUSIC_DISC_MELLOHI, Items.MUSIC_DISC_STAL, Items.MUSIC_DISC_STRAD, Items.MUSIC_DISC_WAIT,
+                        Items.MUSIC_DISC_WARD);
+        // Minecraft tags
+        this.tag(ItemTags.MUSIC_DISCS)
+                .add(ModItems.MUSIC_DISC_AVIDIT_E.get(), ModItems.MUSIC_DISC_DROWN.get(),
+                        ModItems.MUSIC_DISC_DUMA.get(), ModItems.MUSIC_DISC_LOCKER.get(),
+                        ModItems.MUSIC_DISC_LOST.get(), ModItems.MUSIC_DISC_MINIMALIST.get(),
+                        ModItems.MUSIC_DISC_NEMATODE.get(), ModItems.MUSIC_DISC_OLD_WHITE_STRAIGHT_ROAD.get(),
+                        ModItems.MUSIC_DISC_OUTSKIRTS.get(), ModItems.MUSIC_DISC_PET_THE_DOG.get(),
+                        ModItems.MUSIC_DISC_PIES_E.get(), ModItems.MUSIC_DISC_RIGMAROLE.get(),
+                        ModItems.MUSIC_DISC_SLITHER.get(), ModItems.MUSIC_DISC_WANDERER.get(),
+                        ModItems.MUSIC_DISC_AEON.get(), ModItems.MUSIC_DISC_REBOOT.get(),
+                        ModItems.MUSIC_DISC_NIGHTTIME_TRANSIT.get());
+        // Conventional tags
+        this.tag(ConventionalItemTags.MUSIC_DISCS)
+                .add(ModItems.MUSIC_DISC_AVIDIT_E.get(), ModItems.MUSIC_DISC_DROWN.get(),
+                        ModItems.MUSIC_DISC_DUMA.get(), ModItems.MUSIC_DISC_LOCKER.get(),
+                        ModItems.MUSIC_DISC_LOST.get(), ModItems.MUSIC_DISC_MINIMALIST.get(),
+                        ModItems.MUSIC_DISC_NEMATODE.get(), ModItems.MUSIC_DISC_OLD_WHITE_STRAIGHT_ROAD.get(),
+                        ModItems.MUSIC_DISC_OUTSKIRTS.get(), ModItems.MUSIC_DISC_PET_THE_DOG.get(),
+                        ModItems.MUSIC_DISC_PIES_E.get(), ModItems.MUSIC_DISC_RIGMAROLE.get(),
+                        ModItems.MUSIC_DISC_SLITHER.get(), ModItems.MUSIC_DISC_WANDERER.get(),
+                        ModItems.MUSIC_DISC_AEON.get(), ModItems.MUSIC_DISC_REBOOT.get(),
+                        ModItems.MUSIC_DISC_NIGHTTIME_TRANSIT.get());
     }
 }

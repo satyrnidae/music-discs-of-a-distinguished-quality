@@ -1,6 +1,7 @@
 package com.satyrn.mdoadq;
 
 import com.satyrn.mdoadq.sounds.ModSoundEvents;
+import com.satyrn.mdoadq.util.NotInitializable;
 import com.satyrn.mdoadq.world.item.ModItems;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,7 +11,7 @@ public final class Mdoadq {
     private static final Logger LOGGER = LogManager.getLogger();
 
     private Mdoadq() {
-        throw new AssertionError("Mdoadq should not be initialized.");
+        NotInitializable.staticClass(Mdoadq.class);
     }
 
     public static void preRegistrationSetup() {

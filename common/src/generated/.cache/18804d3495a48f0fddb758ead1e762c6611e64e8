@@ -1,4 +1,5 @@
-// 1.19.2	2025-07-26T04:02:43.0919701	Music Discs of a Distinguished Quality Mod Item Tags Provider
+// 1.19.2	2025-07-26T19:30:41.8512792	Music Discs of a Distinguished Quality Mod Item Tags Provider
+e0d672211f94d175c4fad684f9f376854112be8a data/c/tags/items/music_discs.json
 c5eb39e3d514bcff05e95812e650e089d12f459b data/mdoadq/tags/items/acornman_and_miscellany_discs.json
 7539a5aad62d99abddc1587c7db235c1cf29f022 data/mdoadq/tags/items/alkali_discs.json
 6e8a53276044f7b0dd29ddf66d450eef3a033879 data/mdoadq/tags/items/captainzephyrr_discs.json
@@ -11,3 +12,5 @@ c303d6ee553644cd9cb154b1152ed74c03ecbdeb data/mdoadq/tags/items/mobiquum_discs.j
 e0d672211f94d175c4fad684f9f376854112be8a data/mdoadq/tags/items/music_discs.json
 dbc68cfeb576eeccce6f1a729aecba3be65ebac7 data/mdoadq/tags/items/satyrnidae_discs.json
 56fdb2e7119a7969e608c0595daa9c9078cf58b1 data/mdoadq/tags/items/sketches_discs.json
+b16202b245eb16a0f9b973eaa42aecbf6522190c data/mdoadq/tags/items/trade_item_discs.json
+e0d672211f94d175c4fad684f9f376854112be8a data/minecraft/tags/items/music_discs.json

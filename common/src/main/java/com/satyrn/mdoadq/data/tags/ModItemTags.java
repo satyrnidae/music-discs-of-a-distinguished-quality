@@ -22,6 +22,7 @@ public final class ModItemTags {
     public static final TagKey<Item> KORG_FILES_DISCS;
     public static final TagKey<Item> MOBIQUUM_DISCS;
     public static final TagKey<Item> FAILROAD_DISCS;
+    public static final TagKey<Item> TRADE_ITEM_DISCS;
 
     static {
         MUSIC_DISCS = register("music_discs");
@@ -36,6 +37,7 @@ public final class ModItemTags {
         KORG_FILES_DISCS = register("korg_files_discs");
         MOBIQUUM_DISCS = register("mobiquum_discs");
         FAILROAD_DISCS = register("failroad_discs");
+        TRADE_ITEM_DISCS = register("trade_item_discs");
     }
 
     private ModItemTags() {
