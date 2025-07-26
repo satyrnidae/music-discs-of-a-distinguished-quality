@@ -1,0 +1,8 @@
+// 1.19.2	2025-07-24T02:48:56.0099973	Music Discs of a Distinguished Quality Mod Global Loot Modifier Provider
+7665864f2d627590cb09ff57f1752110085a598b data/forge/loot_modifiers/global_loot_modifiers.json
+86beadcc830a14446066552274f37941020d459d data/mdoadq/loot_modifiers/minecraft/chests/ancient_city.json
+5b1be6c10bcde5ae8d81365b8236868349767049 data/mdoadq/loot_modifiers/minecraft/chests/simple_dungeon.json
+6979873a3c8a3e992e5f323bbc041828cdfc7d02 data/mdoadq/loot_modifiers/minecraft/chests/stronghold_corridor.json
+0807293f0085972b78ece8bcbd6cb24974d1664d data/mdoadq/loot_modifiers/nova_structures/chests/illager_hideout_heart_loot.json
+7db8548397d6f8802f38b671313a8672d65fd270 data/mdoadq/loot_modifiers/nova_structures/chests/illager_hideout_lesser_tresure.json
+1c97ed19781326bd655d6d32a202d8f21c001471 data/mdoadq/loot_modifiers/nova_structures/chests/stray_fort_tresure.json

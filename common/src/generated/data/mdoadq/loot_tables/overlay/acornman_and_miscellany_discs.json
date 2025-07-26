@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_drown"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_nematode"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_aeon"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 0.0
+      }
+    }
+  ]
+}

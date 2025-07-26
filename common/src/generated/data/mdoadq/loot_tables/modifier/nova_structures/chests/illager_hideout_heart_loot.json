@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.25,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "mdoadq:overlay/flowers_throwing_paper_airplanes_discs"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 0.0
+      }
+    }
+  ]
+}

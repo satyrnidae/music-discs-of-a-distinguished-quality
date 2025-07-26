@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_pies_e"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_reboot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_slither"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_outskirts"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_minimalist"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_wanderer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_lost"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_pet_the_dog"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_locker"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 0.0
+      }
+    }
+  ]
+}

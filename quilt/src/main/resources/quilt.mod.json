@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "mdoadq",
+    "version": "${version}",
+    "metadata": {
+      "name": "Music Disks of a Distinguished Quality",
+      "description": "This is an example description! Tell everyone what your mod is about!",
+      "contributors": {
+        "satyrnidae": "Author, Locker, Wanderer, Minimalist, Slither, Outskirts, Pies-E, Pet the Dog, Lost",
+        "CaptainZephyrr": "Avidit E, Old White Straight Road, Drown, дума, Rigmarole"
+      },
+      "icon": "icon.png",
+      "license": "MIT"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "com.satyrn.mdoadq.quilt.InitEntrypoint"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.19.2"
+      },
+      {
+        "id": "architectury",
+        "version": ">=6.6.92"
+      }
+    ]
+  },
+  "mixin": [
+    "mdoadq.mixins.json"
+  ]
+}

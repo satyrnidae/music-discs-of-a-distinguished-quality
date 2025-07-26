@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_drown"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_nematode"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_duma"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_avidit_e"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_old_white_straight_road"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mdoadq:music_disc_rigmarole"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 0.0
+      }
+    }
+  ]
+}

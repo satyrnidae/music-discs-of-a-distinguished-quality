@@ -1,0 +1,146 @@
+{
+  "music_disc_aeon": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_aeon",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_avidit_e": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_avidit_e",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_drown": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_drown",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_duma": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_duma",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_locker": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_locker",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_lost": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_lost",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_minimalist": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_minimalist",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_nematode": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_nematode",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_nighttime_transit": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_nighttime_transit",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_old_white_straight_road": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_old_white_straight_road",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_outskirts": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_outskirts",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_pet_the_dog": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_pet_the_dog",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_pies_e": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_pies_e",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_reboot": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_reboot",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_rigmarole": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_rigmarole",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_slither": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_slither",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_sparkplugs": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_sparkplugs",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_wanderer": {
+    "sounds": [
+      {
+        "name": "mdoadq:records/music_disc_wanderer",
+        "stream": true
+      }
+    ]
+  }
+}

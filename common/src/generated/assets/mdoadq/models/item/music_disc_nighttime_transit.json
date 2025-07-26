@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mdoadq:item/music_disc_nighttime_transit"
+  }
+}

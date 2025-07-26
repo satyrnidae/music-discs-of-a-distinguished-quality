@@ -1,0 +1,11 @@
+{
+  "entries": [
+    "mdoadq:nova_structures/chests/stray_fort_tresure",
+    "mdoadq:nova_structures/chests/illager_hideout_lesser_tresure",
+    "mdoadq:nova_structures/chests/illager_hideout_heart_loot",
+    "mdoadq:minecraft/chests/stronghold_corridor",
+    "mdoadq:minecraft/chests/simple_dungeon",
+    "mdoadq:minecraft/chests/ancient_city"
+  ],
+  "replace": false
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mdoadq",
+  "version": "${version}",
+  "name": "Music Disks of a Distinguished Quality",
+  "description": "Adds some unique music discs to the game.",
+  "authors": [
+    "satyrnidae (code, music)",
+    "CaptainZephyrr (music)"
+  ],
+  "contact": {
+    "homepage": "https://satyrn.dev/"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.satyrn.mdoadq.fabric.MainEntrypoint"
+    ]
+  },
+  "mixins": [ ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.19.2",
+    "java": ">=17",
+    "architectury": ">=6.6.92",
+    "fabric-api": "*"
+  }
+}

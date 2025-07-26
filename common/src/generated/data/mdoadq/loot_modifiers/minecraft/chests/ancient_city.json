@@ -1,0 +1,17 @@
+{
+  "type": "mdoadq:overlay_loot_table",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/ancient_city"
+    }
+  ],
+  "loot_table": "mdoadq:overlay/music_discs",
+  "rolls": {
+    "type": "minecraft:uniform",
+    "value": {
+      "max_exclusive": 1.0,
+      "min_inclusive": 0.0
+    }
+  }
+}
