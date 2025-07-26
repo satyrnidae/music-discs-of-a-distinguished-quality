@@ -1,8 +1,8 @@
 package com.satyrn.mdoadq.forge.event;
 
 import com.satyrn.mdoadq.Mdoadq;
-import com.satyrn.mdoadq.api.WanderingTradesHelper;
 import com.satyrn.mdoadq.util.NotInitializable;
+import com.satyrn.mdoadq.world.entity.npc.ModdedMusicDiscListing;
 import net.minecraftforge.event.village.WandererTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -15,6 +15,6 @@ public final class ForgeEvents {
 
     @SubscribeEvent
     static void addTraderTrades(WandererTradesEvent event) {
-        event.getRareTrades().addAll(WanderingTradesHelper.getAllMusicDiscTrades());
+        event.getRareTrades().add(new ModdedMusicDiscListing());
     }
 }

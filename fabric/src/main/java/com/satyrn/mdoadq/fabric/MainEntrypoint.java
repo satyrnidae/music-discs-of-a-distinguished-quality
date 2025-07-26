@@ -1,21 +1,11 @@
 package com.satyrn.mdoadq.fabric;
 
-import com.satyrn.mdoadq.api.LootTableModifierProcessor;
-import com.satyrn.mdoadq.api.WanderingTradesHelper;
-import dev.architectury.event.events.common.LifecycleEvent;
-import dev.architectury.init.fabric.ArchitecturyServer;
-import net.fabricmc.api.ModInitializer;
-
 import com.satyrn.mdoadq.Mdoadq;
-import net.fabricmc.fabric.api.event.lifecycle.v1.CommonLifecycleEvents;
-import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
+import com.satyrn.mdoadq.api.LootTableModifierProcessor;
+import com.satyrn.mdoadq.world.entity.npc.ModdedMusicDiscListing;
+import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
-import net.minecraft.core.RegistryAccess;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.world.entity.npc.VillagerTrades;
-
-import java.util.List;
 
 public final class MainEntrypoint implements ModInitializer {
     @Override
@@ -28,15 +18,10 @@ public final class MainEntrypoint implements ModInitializer {
         Mdoadq.preRegistrationSetup();
 
         Mdoadq.info("Hooking loot tables");
-        LootTableEvents.MODIFY.register(((resourceManager, lootManager, id, tableBuilder, source) -> {
-            LootTableModifierProcessor.modifyTables(lootManager, id, tableBuilder);
-        }));
-
-        // TODO: We shouldn't need SERVER_STARTED for this.
-        LifecycleEvent.SERVER_STARTED.register(server ->
-            TradeOfferHelper.registerWanderingTraderOffers(1, itemListings -> {
-                final List<VillagerTrades.ItemListing> musicDiscTrades = WanderingTradesHelper.getAllMusicDiscTrades();
-                itemListings.addAll(musicDiscTrades);
-        }));
+        LootTableEvents.MODIFY.register(
+                (resourceManager, lootManager, id, tableBuilder, source) -> LootTableModifierProcessor.modifyTables(
+                        lootManager, id, tableBuilder));
+        TradeOfferHelper.registerWanderingTraderOffers(1,
+                itemListings -> itemListings.add(new ModdedMusicDiscListing()));
     }
 }
